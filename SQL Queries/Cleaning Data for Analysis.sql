@@ -32,7 +32,7 @@ WITH cleaned_orders_table AS (
     COALESCE(currency, 'Unknown') AS cleaned_currency,
 
     purchase_platform
-FROM projectsandboxtwolocal.TechTreeCore.orders
+FROM core.orders
 QUALIFY ROW_NUMBER() OVER(
     PARTITION BY `id`
     ORDER BY cleaned_purchase_date) = 1 -- Deduplicate by id
@@ -69,7 +69,7 @@ WITH cleaned_customers_table AS (
 
     loyalty_program,
     account_created_on
-FROM projectsandboxtwolocal.TechTreeCore.customers
+FROM core.customers
 QUALIFY ROW_NUMBER() OVER(
     PARTITION BY `id`
     ORDER BY account_created_on) = 1 -- Deduplicate by id
@@ -95,7 +95,7 @@ WITH cleaned_order_status_table AS (
     ship_ts AS ship_date,
     delivery_ts AS delivery_date,
     refund_ts AS refund_date
-FROM projectsandboxtwolocal.TechTreeCore.order_status
+FROM core.order_status
 QUALIFY ROW_NUMBER() OVER(
     PARTITION BY order_id
     ORDER BY cleaned_purchase_date) = 1 -- Deduplicate by order_id
