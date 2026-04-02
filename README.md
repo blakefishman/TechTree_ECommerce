@@ -3,13 +3,9 @@
 </div>
 
 ## Client Background
-Founded in 2018, **TechTree** is a US-based e-commerce retailer specializing in popular consumer electronics and accessories for a global audience. While rapidly scaling its online and mobile operations in recent years, the company has encountered an increasing market competition alongside unique challenges and opportunities resulting from the COVID-19 pandemic.
+Founded in 2018, **TechTree** is a US-based e-commerce retailer specializing in popular consumer electronics and accessories for a global audience via its website and mobile app. The company saw rapid growth during the turbulent era of the COVID-19 pandemic, but had also experienced immense challenges and market shifts.
 
-TechTree's book of business consists of almost 88,000 customers across over 108,000 transactions, generating total sales revenue over $28 million. The available data spans various dimensions and metrics, including sales, products, customer information, its loyalty program, and shipping & delivery metrics.
-
-Due to the rapid growth and challenges TechTree has experienced from 2019-2022, in-depth analysis was conducted to evaluate its performance during these years. This comprehensive review cleans, analyzes, and synthesizes the company's data to uncover valuable insights and ultimately provide recommendations to TechTree's internal teams to enhance the company's future performance.
-
-Insights and recommendations focus on the following areas:
+An in-depth analysis was therefore conducted to evaluate its performance between 2019-2022. This comprehensive review cleans, analyzes, and synthesizes TechTree's data to uncover valuable insights and ultimately provide recommendations to its internal teams to enhance future performance. Insights and recommendations focus on the following areas:
 
 #### **Northstar Metrics**
 
@@ -41,7 +37,7 @@ TechTree's database structure as seen below consists of four tables: orders, cus
 <div align="center">
   <img width="780" src="https://github.com/user-attachments/assets/ab00381f-dbc1-4c4a-96d1-d1774c6a5e10">
 </div>
-
+As of the end of 2022, TechTree's book of business consists of almost 88,000 customers across over 108,000 transactions, generating total sales revenue over $28 million. The available data spans various dimensions and metrics, including sales, products, customer information, its loyalty program, and shipping & delivery metrics.
 
 ## Insights Deep-Dive
 * This README is a work in progress.
