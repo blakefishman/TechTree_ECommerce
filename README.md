@@ -29,7 +29,9 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 
 
 ## Executive Summary
-This README is a work in progress.
+Launching in 2019 and following an all-time peak in late 2020, TechTree experienced a significant downturn in 2022, with **all key performance indicators decrasing year-over-years**: revenue decreased by 46%, order volume by 40%, and average order value (AOV) by 10%. While these results can broadly reflect a post-Covid pandemic market correction, it is important to note that 2022 was also below the pre-Covid pandemic 2019 baseline year. 
+
+This report identifies additional drivers for this decline and highlights strategic areas of opportunity to reverse these trends.
 
 ![Overview](https://github.com/user-attachments/assets/c379dfeb-0c38-495a-83e2-ac6e9d05e38f)
 
@@ -40,11 +42,22 @@ TechTree's database structure, as seen in the below ERD, consists of four tables
 </div>
 
 ## Insights Deep-Dive
-* This README is a work in progress.
-
 
 ### Sales Trends
-* This README is a work in progress.
+* **TechTree sales reached an all-time high in December 2020** of $1,251,721 from 4,019 orders. This surge reflects broader Covid-19 pandemic macroeconomic trends and shifts in consumer spending.
+* 2021 saw the onset of long-term downward trends for all key metrics, departing from the temporary volatility of 2020:
+    * **Revenue declined year-over-year for 21 consecutive months** beginning in April 2021.
+    * **Order volume declined year-over-year for 13 consecutive months** beginning in December 2021
+    * **Average order value (AOV) declined year-over-year from February 2021 onwards**, but saw a brief, one-month reversal in September 2022. This lone uptick was driven by an increased share of laptop sales, the company's highest-AOV product category.
+
+* **Performance reached an all-time low in October 2022** across all key metrics: revenue totaled $178,275, order volume fell to 825, and AOV dropped to $216.35.
+
+* **Q422 sales revenue sharply declined** despite the usual holiday boost. Sales revenue decreased by 48% compared to the previous quarter, and by 72% and 79% for Q421 and Q420 respectively. Order volume followed very closely.
+    * While sales revenue declined year-over-year for all 2022 quarters, indicating critical demand issues overall, Q4's decline was notably sharper.
+    * Compared to the pre-Covid 2019 baseline, Q422 was still down 45% from Q419
+
+
+* Overall, for the 2022 year, key performance indicators all declined from the 2021 year: revenue decreased by 46%, order volume decreased by 40%, and AOV decreased by 10%.
 
 ![YOY Trends](https://github.com/user-attachments/assets/2b3e5124-f058-430f-8a38-6af14eacf5e0)
 
