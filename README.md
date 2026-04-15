@@ -31,11 +31,12 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 ## Executive Summary
 This README is a work in progress.
 
+![Overview](https://github.com/user-attachments/assets/c379dfeb-0c38-495a-83e2-ac6e9d05e38f)
 
 ## Data Structure & Examination
 TechTree's database structure, as seen in the below ERD, consists of four tables: orders, customers, region_lookup, and order_status, with an order row count of 108,127 total records across a customer row count of 87,628 total records.
 <div align="center">
-  <img width="780" src="https://github.com/user-attachments/assets/ab00381f-dbc1-4c4a-96d1-d1774c6a5e10">
+  <img width="720" src="https://github.com/user-attachments/assets/ab00381f-dbc1-4c4a-96d1-d1774c6a5e10">
 </div>
 
 ## Insights Deep-Dive
@@ -45,20 +46,32 @@ TechTree's database structure, as seen in the below ERD, consists of four tables
 ### Sales Trends
 * This README is a work in progress.
 
+![YOY Trends](https://github.com/user-attachments/assets/2b3e5124-f058-430f-8a38-6af14eacf5e0)
+
 
 ### Product Performance
 * This README is a work in progress.
 
+![Product Revenue-](https://github.com/user-attachments/assets/beb153f3-acba-4d8a-92d3-0e4a8b3f4443)
 
 ### Loyalty Program
 * This README is a work in progress.
+* t
+* t
+
+![Loyalty Program](https://github.com/user-attachments/assets/48ce5af1-da62-44c9-a498-3952c7d806da)
 
 
 ### Regional Performance
 * This README is a work in progress.
+* t
+* t
+
+![Regional](https://github.com/user-attachments/assets/9718f99b-2531-4a84-878c-1d79d517fc50)
+
 
 ## Recommendations
 
-Given the discovered trends, the following recommendations are provided for TechTree
+Given the discovered trends, the following recommendations are provided for TechTree:
 
 * This README is a work in progress.
