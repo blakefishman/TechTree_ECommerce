@@ -63,22 +63,40 @@ TechTree's database structure, as seen in the below ERD, consists of four tables
 
 
 ### Product Performance
-* This README is a work in progress.
+* **At least 84% of TechTree's orders have been from just three products**: Apple AirPods Headphones, 27 Inch 4K Gaming Monitor, and the Samsung Charging Cable Pack. These three products accounted for $3.5M in revenue in 2022 at 70% of the year's total. During the pre-Covid 2019 baseline year, these products were 95% of orders, and accounted for $2.8M in revenue at 73% of the year's total.
+
+* The 27 Inch 4K Gaming Monitor has consistently been TechTree's highest revenue generating product annually, totaling $9.85M in lifetime revenue and accounting for an average of 35% of annual revenue. Its share of annual revenue and order volume continues to increase year-over-year.
+
+* Conversely, the Bose Soundsport Headphones has consistently been the lowest performing product year-over-year, totaling $3,339 in lifetime revenue and accounting for an average of 0.01% of annual revenue. Despite being introduced in 2020, **the product has sold only 27 times, with no sales recorded in multiple months**.
+
+* Despite the general popularity of Apple products, the Apple iPhone is the second-lowest performing product year-over-year with $213K in lifetime revenue for an average of 0.76% of annual revenue.
+
+* **The Apple MacBook Air Laptop is the largest contributor to AOV** at $1,588, followed by the ThinkPad Laptop at $1,100 and Apple iPhone at $741.
+
+* The Accessories category continues to grow as a share of orders at 31.67% in 2022, up from 21.53% in 2020, which is above the pre-Covid 2019 baseline year of 25.63%. Conversely, the Headphones category has consistently retracted, down from 47.31% in 2020 to 41.67% in 2022, which is below the pre-Covid 2019 baseline year of 48.45%. While accessories remained just 4% of total revenue in 2022, the headphones category constituted 28.64%.
 
 ![Product Revenue-](https://github.com/user-attachments/assets/beb153f3-acba-4d8a-92d3-0e4a8b3f4443)
 
 ### Loyalty Program
-* This README is a work in progress.
-* t
-* t
+* **The loyalty program has grown consistently since its implementation in 2019**. Loyalty members have increased to 56.2% of annual revenue in 2022, up from 10.5% in 2019. The most significant increases occurred in 2020 and 2021 (18.7% and 24.78% respectively) before slowing to a 2% increase in 2022.
+
+* Members as a share of revenue peaked at 63.46% in April 2022, before declining consistently to 35.01% by December 2022, returning to levels not seen since November 2020 (32.98%). This decline, which entered freefall in June 2022, was not observed in prior years, where members as a share of total revenue grew consistently between the months of April and December.
+
+* **Members spent almost $37 more on average than non-members in 2022** ($247.74 to $210.47). Annual order value (AOV) for members has increased favorably since the pre-Covid 2019 baseline, increasing 20.4% while non-member AOV declined -9.9%.
+
+* Average order value (AOV) for members demonstrated greater resilience than non-members for 2022's widespread downward trend in sales, with a pullback of only 1% compared to -19% for non-members between 2021 and 2022.
+
+* **Members have sustained AOV growth beyond the pandemic boom**. Since 2020, member AOV increased 7.8% while non-member AOV decreased 38.7%
 
 ![Loyalty Program](https://github.com/user-attachments/assets/48ce5af1-da62-44c9-a498-3952c7d806da)
 
 
 ### Regional Performance
-* This README is a work in progress.
-* t
-* t
+* **North America contributes the most to revenue**, both overall and for each product individually, and generated $2.7M in 2022. Since TechTree's launch in 2019, the region has consistently remained between 51% - 53% of annual order share.
+
+* Conversely, **Latin America is the lowest-performing region** ($256K in 2022), consistently holding only 5-6% of annual order share since 2019.
+
+* Europe, the Middle East, and Africa (EMEA) showed greater resilience during the sharp 4Q22 downturn, with a 36% decline in order volume compared to drops of 50%-57% in other regions. This performance boosted EMEA’s order share to 32% (from 26% in 4Q21) as a result, while all other regions decreased between 0.7% and 18.4%.
 
 ![Regional](https://github.com/user-attachments/assets/9718f99b-2531-4a84-878c-1d79d517fc50)
 
