@@ -29,7 +29,7 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 
 
 ## Executive Summary
-Launching in 2019 and following an all-time peak in late 2020, TechTree experienced a significant downturn in 2022, with **all key performance indicators decrasing year-over-years**: revenue decreased by 46%, order volume by 40%, and average order value (AOV) by 10%. While these results can broadly reflect a post-Covid pandemic market correction, it is important to note that 2022 was also below the pre-Covid pandemic 2019 baseline year. 
+Launching in 2019 and following an all-time peak in late 2020, TechTree experienced a significant downturn in 2022, with all key performance indicators decrasing year-over-years: revenue decreased by 46%, order volume by 40%, and average order value (AOV) by 10%. While these results can broadly reflect a post-Covid pandemic market correction, it is important to note that 2022 was also below the pre-Covid pandemic 2019 baseline year. 
 
 This report identifies additional drivers for this decline and highlights strategic areas of opportunity to reverse these trends.
 
