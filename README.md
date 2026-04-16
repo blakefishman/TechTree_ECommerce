@@ -24,7 +24,7 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 
 * The **Excel** tables and functions used to analyze the cleaned data can be found here.
 
-* The **PowerBI** visualizations used in the report can be found here.
+* The **PowerBI** visualizations used in the report can be found [here](https://github.com/blakefishman/TechTree_ECommerce/blob/main/TechTree_PowerBI.pbix).
 
 
 
