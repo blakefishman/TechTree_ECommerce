@@ -22,7 +22,7 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 
 * The **SQL** queries used to clean, organize, and prepare the raw data for analysis and visualization be found [here](https://github.com/blakefishman/TechTree_ECommerce/blob/main/SQL%20Queries/Cleaning%20Data%20for%20Analysis.sql).
 
-* The **Excel** tables and functions used to analyze the cleaned data can be found here.
+* The **Excel** tables and functions used to analyze the cleaned data can be found [here](https://github.com/blakefishman/TechTree_ECommerce/blob/main/TechTree_Excel_Data_Cleaned.7z).
 
 * The **PowerBI** visualizations used in the report can be found [here](https://github.com/blakefishman/TechTree_ECommerce/blob/main/TechTree_PowerBI.pbix).
 
@@ -73,7 +73,7 @@ TechTree's database structure, as seen in the below ERD, consists of four tables
 
 * **The Apple MacBook Air Laptop is the largest contributor to AOV** at $1,588, followed by the ThinkPad Laptop at $1,100 and Apple iPhone at $741.
 
-* The Accessories category continues to grow as a share of orders at 31.67% in 2022, up from 21.53% in 2020, which is above the pre-Covid 2019 baseline year of 25.63%. Conversely, the Headphones category has consistently retracted, down from 47.31% in 2020 to 41.67% in 2022, which is below the pre-Covid 2019 baseline year of 48.45%. While accessories remained just 4% of total revenue in 2022, the headphones category constituted 28.64%.
+* The Accessories category continues to grow as a share of orders at 31.7% in 2022, up from 21.5% in 2020, which is above the pre-Covid 2019 baseline year of 25.6%. Conversely, the Headphones category has consistently retracted, down from 47.3% in 2020 to 41.7% in 2022, which is below the pre-Covid 2019 baseline year of 48.5%. While accessories remained just 4% of total revenue in 2022, the headphones category constituted 28.6%.
 
 ![Product Revenue-](https://github.com/user-attachments/assets/beb153f3-acba-4d8a-92d3-0e4a8b3f4443)
 
@@ -103,6 +103,20 @@ TechTree's database structure, as seen in the below ERD, consists of four tables
 
 ## Recommendations
 
-Given the discovered trends, the following recommendations are provided for TechTree:
+Given the discovered trends, the following recommendations are provided to TechTree for various departments:
 
-* This README is a work in progress.
+* Q4 2022 failed to see the usual holiday boost. **Investigate the performance of Q4 2022's marketing campaigns & promotions** compared to other years to understand what changed or didn't work.
+
+* **Diversifying the product portfolio is essential** due to 84% of orders and 70% of revenue currently coming from just three products.
+  * Expanding the growing Accessories category with new product lines, particularly Apple charging cable packs due to prior success with Samsung charging cable packs, 	is a logical next-step to expand the portfolio and complement the company's existing Apple product lineup.
+  * Expanding the Monitors category to offer more than just the 27 Inch 4K Gaming Monitor could also prove worthwhile, as this product has consistently been TechTree's 	highest revenue generating product and its share of annual revenue and order volume continues to increase year-over-year.
+
+* **Re-evaluate Bose Soundsport Headphones' viability**. With negligible revenue impact (<0.03% annually) and only 27 lifetime sales, this product should be cleared via bundles or flash sales before discontinuing.
+
+* Since Apple iPhone sales were TechTree’s second-lowest performer in 2022 (just 0.6% of revenue at 0.2% of orders), **offering bundle deals with the Apple AirPods Headphones could significantly boost exposure to the standalone iPhone product offering**, as the AirPods are the company's top-selling product by order count. Strategic marketing aimed at existing Apple customers could further help drive growth for this underperforming but high-AOV product.
+
+* Similarly, **bundling the Apple MacBook Air Laptop with Apple AirPods Headphones could significantly boost annual revenue**, as the former is the company's highest AOV product at $1,588. Even a modest increase in sales for this product, which currently accounts for 17% of 2022 orders, would have an outsized effect.
+
+* **Continue to promote and improve the loyalty program** due to the various advantages that make the program a driver of stable revenue such as higher AOV, consistent growth, and resilience to recent downward trends. Implementing new marketing strategies such as one-time sign-up discounts, free trials of premium benefits, and re-targeting of existing customers can increase conversions for non-members.
+
+* **Investigate EMEA region's greater resilience to Q422's sharp decline**. Identify the specific products, buyer behaviors, or other factors that shielded EMEA from the sharper declines experienced by other regions to see if they can be replicated globally.
