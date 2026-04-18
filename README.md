@@ -14,7 +14,7 @@ An in-depth analysis was therefore conducted to evaluate its performance between
 * **Loyalty Program Success** - Evaluating the effectiveness and extent of the company's loyalty program on sales.
 * **Regional Performance** - Evaluating sales and orders by region.
 
-## Project Resources
+## Project Components
 
 * The raw data was loaded into **Google BigQuery** using **Fivetran**.
 
