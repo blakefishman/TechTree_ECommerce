@@ -36,7 +36,8 @@ This report identifies additional drivers for this decline and highlights strate
 ![Overview](https://github.com/user-attachments/assets/c379dfeb-0c38-495a-83e2-ac6e9d05e38f)
 
 ## Data Structure & Examination
-TechTree's database structure, as seen in the below ERD, consists of four tables: orders, customers, region_lookup, and order_status, with an order row count of 108,127 total records across a customer row count of 87,628 total records.
+TechTree's database structure, seen in the below ERD, consists of four tables: orders, customers, region_lookup, and order_status. The company's book of business totals 108,127 orders across 87,628 customers.
+
 <div align="center">
   <img width="720" src="https://github.com/user-attachments/assets/ab00381f-dbc1-4c4a-96d1-d1774c6a5e10">
 </div>
