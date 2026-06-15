@@ -3,7 +3,7 @@
 </div>
 
 ## Client Background
-Founded in 2018, **TechTree** is a US-based e-commerce retailer specializing in popular consumer electronics and accessories for a global audience via its website and mobile app. The company saw rapid growth during the turbulent era of the COVID-19 pandemic, but had also experienced immense challenges and market shifts.
+Founded in 2018, **TechTree** is a hypothetical US-based e-commerce retailer specializing in popular consumer electronics and accessories for a global audience via its website and mobile app. The company saw rapid growth during the turbulent era of the COVID-19 pandemic, but had also experienced immense challenges and market shifts.
 
 An in-depth analysis was therefore conducted to evaluate its performance between 2019-2022. This comprehensive review cleans, analyzes, and synthesizes TechTree's data to uncover valuable insights and ultimately provide recommendations to its internal teams for enhancing future performance. Insights and recommendations focus on the following areas:
 
