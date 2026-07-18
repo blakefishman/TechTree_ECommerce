@@ -35,7 +35,7 @@ This report identifies additional drivers for this decline and highlights strate
 
 ![Overview](https://github.com/user-attachments/assets/c379dfeb-0c38-495a-83e2-ac6e9d05e38f)
 
-## Data Structure & Examination
+## Data Structure
 TechTree's database structure, seen in the below ERD, consists of four tables: orders, customers, region_lookup, and order_status. The company's book of business totals 108,127 orders across 87,628 customers.
 
 <div align="center">
@@ -53,9 +53,9 @@ TechTree's database structure, seen in the below ERD, consists of four tables: o
 
 * **Performance reached an all-time low in October 2022** across all key metrics: revenue totaled $178,275, order volume fell to 825, and AOV dropped to $216.35.
 
-* **Q422 sales revenue sharply declined** despite the usual holiday boost. Sales revenue decreased by 48% compared to the previous quarter, and by 72% and 79% for Q421 and Q420 respectively. Order volume followed very closely.
+* **Q4 2022 sales revenue sharply declined** despite the usual holiday boost. Sales revenue decreased by 48% compared to the previous quarter, and by 72% and 79% for Q4 2021 and Q4 2020 respectively. Order volume followed very closely.
     * While sales revenue declined year-over-year for all 2022 quarters, indicating critical demand issues overall, Q4's decline was notably sharper.
-    * Compared to the pre-Covid 2019 baseline, Q422 was still down 45% from Q419
+    * Compared to the pre-Covid 2019 baseline, Q4 2022 was still down 45% from Q4 2019
 
 
 * Overall, for the 2022 year, key performance indicators all declined from the 2021 year: revenue decreased by 46%, order volume decreased by 40%, and AOV decreased by 10%.
@@ -81,7 +81,7 @@ TechTree's database structure, seen in the below ERD, consists of four tables: o
 ### Loyalty Program
 * **The loyalty program has grown consistently since its implementation in 2019**. Loyalty members have increased to 56.2% of annual revenue in 2022, up from 10.5% in 2019. The most significant increases occurred in 2020 and 2021 (18.7% and 24.78% respectively) before slowing to a 2% increase in 2022.
 
-* **Members as a share of revenue peaked at 63.46% in April 2022**, before declining consistently to 35.01% by December 2022, returning to levels not seen since November 2020 (32.98%). This decline, which entered freefall in June 2022, was not observed in prior years, where members as a share of total revenue grew consistently between the months of April and December.
+* **Members as a share of revenue peaked at 63.5% in April 2022**, before declining consistently to 35% by December 2022, returning to levels not seen since November 2020 (33%). This decline, which entered freefall in June 2022, was not observed in prior years, where members as a share of total revenue grew consistently between the months of April and December.
 
 * **Members spent almost $37 more on average than non-members in 2022** ($247.74 to $210.47). Annual order value (AOV) for members has increased favorably since the pre-Covid 2019 baseline, increasing 20.4% while non-member AOV declined -9.9%.
 
@@ -93,11 +93,11 @@ TechTree's database structure, seen in the below ERD, consists of four tables: o
 
 
 ### Regional Performance
-* **North America contributes the most to revenue**, both overall and for each product individually, and generated $2.7M in 2022. Since TechTree's launch in 2019, the region has consistently remained between 51% - 53% of annual order share.
+* **North America contributes the most to revenue**, both overall and for each product individually, and generated $2.7M in 2022. Since TechTree's launch in 2019, the region has consistently remained between 51-53% of annual order share.
 
 * Conversely, **Latin America is the lowest-performing region** ($256K in 2022), consistently holding only 5-6% of annual order share since 2019.
 
-* Europe, the Middle East, and Africa (EMEA) showed **greater resilience during the sharp 4Q22 downturn**, with a 36% decline in order volume compared to drops of 50%-57% in other regions. This performance boosted EMEA’s order share to 32% (from 26% in 4Q21) as a result, while all other regions decreased between 0.7% and 18.4%.
+* Europe, the Middle East, and Africa (EMEA) showed **greater resilience during the sharp Q4 2022 downturn**, with a 36% decline in order volume compared to drops of 50-57% in other regions. This performance boosted EMEA’s order share to 32% (from 26% in 4Q21) as a result, while all other regions decreased between 0.7% and 18.4%.
 
 ![Regional](https://github.com/user-attachments/assets/9718f99b-2531-4a84-878c-1d79d517fc50)
 
@@ -120,4 +120,4 @@ Given the discovered trends, the following recommendations are provided to TechT
 
 * **Continue to promote and improve the loyalty program** due to the various advantages that make the program a driver of stable revenue such as higher AOV, consistent growth, and resilience to recent downward trends. Implementing new marketing strategies such as one-time sign-up discounts, free trials of premium benefits, and re-targeting of existing customers can increase conversions for non-members.
 
-* **Investigate EMEA region's greater resilience to Q422's sharp decline**. Identify the specific products, buyer behaviors, or other factors that shielded EMEA from the sharper declines experienced by other regions to see if they can be replicated globally.
+* **Investigate EMEA region's greater resilience to Q4 2022's sharp decline**. Identify the specific products, buyer behaviors, or other factors that shielded EMEA from the sharper declines experienced by other regions to see if they can be replicated globally.
