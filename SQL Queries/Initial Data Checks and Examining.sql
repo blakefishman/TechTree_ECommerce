@@ -4,7 +4,7 @@
 -- 1) Duplicate orders check (performed for all tables separately)
 
 SELECT
-    orders.id,
+    id,
     COUNT(*) AS duplicate_id_count
 FROM core.orders
 GROUP BY 1
@@ -15,15 +15,15 @@ HAVING duplicate_id_count > 1
 -- 2) Null check (performed for all tables separately)
 
 SELECT
-    SUM(CASE WHEN orders.customer_id IS NULL THEN 1 ELSE 0 END) AS null_count_customer_id,
-    SUM(CASE WHEN orders.id IS NULL THEN 1 ELSE 0 END) AS null_count_id,
-    SUM(CASE WHEN orders.purchase_ts IS NULL THEN 1 ELSE 0 END) AS null_count_purchase_ts,
-    SUM(CASE WHEN orders.product_id IS NULL THEN 1 ELSE 0 END) AS null_count_product_id,
-    SUM(CASE WHEN orders.product_name IS NULL THEN 1 ELSE 0 END) AS null_count_product_name,
-    SUM(CASE WHEN orders.usd_price IS NULL THEN 1 ELSE 0 END) AS null_count_usd_price,
-    SUM(CASE WHEN orders.local_price IS NULL THEN 1 ELSE 0 END) AS null_count_local_price,
-    SUM(CASE WHEN orders.currency IS NULL THEN 1 ELSE 0 END) AS null_count_currency,
-    SUM(CASE WHEN orders.purchase_platform IS NULL THEN 1 ELSE 0 END) AS null_count_purchase_platform
+    SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS null_count_customer_id,
+    SUM(CASE WHEN id IS NULL THEN 1 ELSE 0 END) AS null_count_id,
+    SUM(CASE WHEN purchase_ts IS NULL THEN 1 ELSE 0 END) AS null_count_purchase_ts,
+    SUM(CASE WHEN product_id IS NULL THEN 1 ELSE 0 END) AS null_count_product_id,
+    SUM(CASE WHEN product_name IS NULL THEN 1 ELSE 0 END) AS null_count_product_name,
+    SUM(CASE WHEN usd_price IS NULL THEN 1 ELSE 0 END) AS null_count_usd_price,
+    SUM(CASE WHEN local_price IS NULL THEN 1 ELSE 0 END) AS null_count_local_price,
+    SUM(CASE WHEN currency IS NULL THEN 1 ELSE 0 END) AS null_count_currency,
+    SUM(CASE WHEN purchase_platform IS NULL THEN 1 ELSE 0 END) AS null_count_purchase_platform
 FROM core.orders
 ;
 
@@ -31,13 +31,13 @@ FROM core.orders
 -- 3) Empty check for strings (performed for all tables separately)
 
 SELECT
-    SUM(CASE WHEN orders.customer_id = '' THEN 1 ELSE 0 END) AS empty_count_customer_id,
-    SUM(CASE WHEN orders.id = '' THEN 1 ELSE 0 END) AS empty_count_id,
-    SUM(CASE WHEN orders.purchase_ts = '' THEN 1 ELSE 0 END) AS empty_count_purchase_ts,
-    SUM(CASE WHEN orders.product_id = '' THEN 1 ELSE 0 END) AS empty_count_product_id,
-    SUM(CASE WHEN orders.product_name = '' THEN 1 ELSE 0 END) AS empty_count_product_name,
-    SUM(CASE WHEN orders.currency = '' THEN 1 ELSE 0 END) AS empty_count_currency,
-    SUM(CASE WHEN orders.purchase_platform = '' THEN 1 ELSE 0 END) AS empty_count_purchase_platform,
+    SUM(CASE WHEN TRIM(customer_id) = '' THEN 1 ELSE 0 END) AS empty_count_customer_id,
+    SUM(CASE WHEN TRIM(id) = '' THEN 1 ELSE 0 END) AS empty_count_id,
+    SUM(CASE WHEN TRIM(purchase_ts) = '' THEN 1 ELSE 0 END) AS empty_count_purchase_ts,
+    SUM(CASE WHEN TRIM(product_id) = '' THEN 1 ELSE 0 END) AS empty_count_product_id,
+    SUM(CASE WHEN TRIM(product_name) = '' THEN 1 ELSE 0 END) AS empty_count_product_name,
+    SUM(CASE WHEN TRIM(currency) = '' THEN 1 ELSE 0 END) AS empty_count_currency,
+    SUM(CASE WHEN TRIM(purchase_platform) = '' THEN 1 ELSE 0 END) AS empty_count_purchase_platform,
 FROM core.orders
 ;
 
